@@ -309,6 +309,8 @@ new FuncOvertime(500).enable(exeFunc, callback);
 - ✅ 修复 平台模式配置文件导致虚拟目录被编译错误
 - ✅ 调整 `stb-shadow` 库中 Focus.scope 算法，使之更贴合现实业务场景。受影响的功能有 @focus 装饰器，修复在极端情况下情况导致的异常。体现在焦点进行上下移动时
 - ✅ 更新 内置全局函数 setState 替换 mobx 数据流管理工具（兼容性及性能更好）
+- ✅ 新增 `follow` 插件`path:src/framework/plugin/follow`实现元素始终在可视区域，且支持动画效果
+- 
 
 ## 修复方案
 

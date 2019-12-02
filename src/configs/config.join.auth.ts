@@ -14,7 +14,7 @@ Authentication = (videoId: string, episode: number, token: string, business: str
         let ret: Config.AuthenticationResult;
 
         // handler callback
-        const notify = new FormatUrl(`${Tools.getPath()}/_order_callback.html`, backParams).getEncodeURIComponent();
+        // const notify = new FormatUrl(`${Tools.getPath()}/_order_callback.html`, backParams).getEncodeURIComponent();
 
         // new MainData().getAuthenticationData({
         //     business_code: business,
@@ -41,6 +41,7 @@ Authentication = (videoId: string, episode: number, token: string, business: str
         //             trySee: is_try_see,
         //             seeSecond: Number(try_see_second),
         //             jumpUrl: null,
+        //             jumpData:null,
         //             presentParams: null,
         //             productPackage: null,
         //             continueSecond: Number(position)

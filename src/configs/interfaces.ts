@@ -29,6 +29,7 @@ declare namespace Config {
         trySee: boolean;
         seeSecond: number;
         jumpUrl: string;
+        jumpData: any;
         presentParams: any;
         continueSecond: number;
         productPackage: any[];
